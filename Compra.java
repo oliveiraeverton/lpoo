@@ -18,6 +18,11 @@ public class Compra{
 		//this.produtos = prod;
 		this.produtos.add(prod);
 		//oi
+		//testando
+		//varia
+		//linhas
+		//de
+		//código
 	}
 	
 	
