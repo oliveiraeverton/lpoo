@@ -17,14 +17,14 @@ public class Compra{
 	public void adicionaProduto(Produto prod) {
 		//this.produtos = prod;
 		this.produtos.add(prod);
-		
+		//oi
 	}
 	
 	
 	
 	//TODO
-	/*O método listar compra deverá informar o Funcionário que fez a venda e o cliente que
-	fez a compra. Em seguida, deverá listar todos os produtos comprados pelo cliente ordenado do menor
+	/*O mï¿½todo listar compra deverï¿½ informar o Funcionï¿½rio que fez a venda e o cliente que
+	fez a compra. Em seguida, deverï¿½ listar todos os produtos comprados pelo cliente ordenado do menor
 	para o maior valor do produto
 	Ao final mostrar o valor total da compra.
 	O valor do Produto impresso deve possuir 2 casas decimais
@@ -37,7 +37,7 @@ public class Compra{
 			System.out.println("" + produto);
 		}
 		//System.out.println("Fornecedor: "  );
-		System.out.println("Funcionário: " + funcionario.getNome());
+		System.out.println("Funcionï¿½rio: " + funcionario.getNome());
 		System.out.println("Cliente: " + cliente.getNome());
 		//System.out.println("Valor total: " + produto);
 	}
