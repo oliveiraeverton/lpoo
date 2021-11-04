@@ -18,33 +18,33 @@ public class Main {
 //		Produto produto = new Produto(nomeProduto, valor, fornecedor);
 //		Compra compra = new Compra(funcionario, cliente);
 		
-		Endereco end1 = new Endereco("Av. Costa e Silva", 2001, "Universit·rio", "Campo Grande", "79070-900");
+		Endereco end1 = new Endereco("Av. Costa e Silva", 2001, "Universit√°rio", "Campo Grande", "79070-900");
         Endereco end2 = new Endereco("Av. Afonso Pena", 2002, "Centro", "Campo Grande", "79065-555");
         Endereco end3 = new Endereco("Rua do Parque", 2003, "Centro", "Campo Grande", "79065-190");
         Endereco end4 = new Endereco("Av. Nelly Martins", 2004, "Portal Itayara", "Campo Grande", "79065-190");
-        Endereco end5 = new Endereco("Rua Coronel ZÛzimo", 2005, "Monte Castelo", "Campo Grande", "79065-190");
+        Endereco end5 = new Endereco("Rua Coronel Z√≥zimo", 2005, "Monte Castelo", "Campo Grande", "79065-190");
         Endereco end6 = new Endereco("Rua Barueri", 2006, "Moreninha II", "Campo Grande", "79065-190");
 
-        Funcionario func1 = new Funcionario("Everton", "04653302154", end1, "67999464219",  1000, "Feirante");
+        Funcionario func1 = new Funcionario("Everton", "4", end1, "67999464219",  1000, "Feirante");
         Funcionario func2 = new Funcionario("Lourdes", "22222222222", end2, "67999898985", 1000, "Feirante");
         
         //String nome, String cpf, Endereco endereco, String celular
         Cliente cli1 = new Cliente("Eduardo", "07435925144", end3, "67999464221");
         Cliente cli2 = new Cliente("Thiago", "50093037104", end4, "67999464220");
         
-		Fornecedor empresa1 = new Fornecedor("barraca no mercad„o municipal", "GOOOL", "52393813000192", end5, "67999464219");
+		Fornecedor empresa1 = new Fornecedor("barraca no mercad√£o municipal", "GOOOL", "52393813000192", end5, "67999464219");
 		Fornecedor empresa2 = new Fornecedor("barraca na feira central", "TAAAM", "52393813000192", end5, "67999464219");
 		
 		Produto produto1 = new Produto("Morango", 1.50f, empresa1);
-		Produto produto2 = new Produto("Macad‚mia", 2.50f, empresa1);
+		Produto produto2 = new Produto("Macad√¢mia", 2.50f, empresa1);
 		Produto produto3 = new Produto("Manga", 3.50f, empresa1);
 		Produto produto4 = new Produto("Mexerica", 4.50f, empresa1);
-		Produto produto5 = new Produto("Mam„o", 5.50f, empresa2);
+		Produto produto5 = new Produto("Mam√£o", 5.50f, empresa2);
 		Produto produto6 = new Produto("Mirtilo", 6.50f, empresa2);
 		Produto produto7 = new Produto("Melancia", 7.50f, empresa2);
-		Produto produto8 = new Produto("Mel„o", 8.50f, empresa2);
-		Produto produto9 = new Produto("MaÁa", 9.50f, empresa1);
-		Produto produto10 = new Produto("Maracuj·", 10.50f, empresa1);
+		Produto produto8 = new Produto("Mel√£o", 8.50f, empresa2);
+		Produto produto9 = new Produto("Ma√ßa", 9.50f, empresa1);
+		Produto produto10 = new Produto("Maracuj√°", 10.50f, empresa1);
 		
 		Compra compra1 = new Compra(func1, cli1);
 		Compra compra2 = new Compra(func2, cli2);
@@ -65,7 +65,7 @@ public class Main {
 		compra2.listarCompra();
 		
 		
-		// Usar exceÁ„o para tratar entradas inv·lidas para os valores referente a produtos e sal·rio do Funcionario - TODO
+		// Usar exce√ß√£o para tratar entradas inv√°lidas para os valores referente a produtos e sal√°rio do Funcionario - TODO
 		
 		
 
